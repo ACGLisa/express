@@ -12,7 +12,7 @@ app.get("/hi", (request, response) => {
 	response.send("Hello world!");
 });
 
-const CONNECTION_URL = "mongodb+srv://root:<password>@lab10-twodd.mongodb.net/test?retryWrites=true";
+const CONNECTION_URL = "mongodb+srv://root:<root>@lab10-twodd.mongodb.net/test?retryWrites=true";
 const DATABASE_NAME = "Lab10";
 
 app.post("/notes", (request, response) => {
